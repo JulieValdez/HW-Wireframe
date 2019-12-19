@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helevetica Neue, Helvetica, sans-serif;
     color: #777;
@@ -12,7 +15,6 @@ body {
     text-align: center;
     padding: 30px;
     margin-bottom: 10px;
-    width: 80%;
 }
 .nav {
     background: #ebebeb;
@@ -22,6 +24,40 @@ body {
 }
 .aside {
     background: #ebebeb;
-    padding: 30px;  
-    
+    width: 40%;
+    padding: 20px; 
+    text-align: center; 
+    float: right;
+}
+
+.section {
+    background: #ebebeb;
+    width: 40%;
+    padding: 20px; 
+    text-align: center; 
+    float: left;
+
+}
+
+#article {
+    color: #ebebeb;
+    background-color: #777;
+    clear: both;
+
+}
+
+#headers {
+    background: #ebebeb;
+    color: #777;
+
+}
+
+#paragraph {
+    background: #ebebeb;
+    color: #777;
+}
+footer {
+    background: #ebebeb;
+    text-align: center;
+    clear: both;
 }
