@@ -48,6 +48,8 @@ body {
     width: 475px;
     height: 200px;
     margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
     align-content: center;
     color: #ebebeb;
     background-color: #777;
@@ -58,12 +60,19 @@ body {
 #headers {
     background-color: #ebebeb;
     color: #777;
+    width: 420px;
+    height: 60px;
+    padding-top: 15px;
 
 }
 
 #paragraph {
     background-color: #ebebeb;
     color: #777;
+    width: 420px;
+    height: 60px;
+    margin-top: 10px;
+    padding-top: 15px;
 }
 footer {
     background: #ebebeb;
